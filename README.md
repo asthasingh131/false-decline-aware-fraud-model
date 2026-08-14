@@ -3,6 +3,9 @@ Fraud Detection: False-Decline Reduction Model For Payment Authorizations
 
 A fraud detection system for card payment authorizations, built to minimize **total business cost** — not just maximize fraud detection. Optimizes the tradeoff between missed fraud and false declines, since industry research shows false declines cost merchants more than the fraud they're meant to prevent.
 
+## 🔗 Live App
+[Try it here](https://false-decline-aware-fraud-model-nihb3nkpgnxirpyxpc62ur.streamlit.app/)
+
 ## Key Results
 - **87.1%** of fraud caught on a fully held-out test set
 - **5.1%** reduction in total business cost vs. a default 0.5 threshold
