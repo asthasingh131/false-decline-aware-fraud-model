@@ -20,12 +20,14 @@ A fraud detection system for card payment authorizations, built to minimize **to
 Python · Pandas · NumPy · Scikit-learn · XGBoost · Streamlit · SQL (feature engineering via window functions)
 
 ## Project Structure
-├── app.py # Streamlit app
-├── false_decline_aware_fraud_model.ipynb # Full analysis notebook
-├── fraud_model.json # Trained XGBoost model
-├── feature_columns.json # Model input schema
-├── feature_store.json # Mock feature store (card history)
+```
+├── app.py                                   # Streamlit app
+├── false_decline_aware_fraud_model.ipynb    # Full analysis notebook
+├── fraud_model.json                         # Trained XGBoost model
+├── feature_columns.json                     # Model input schema
+├── feature_store.json                       # Mock feature store (card history)
 └── requirements.txt
+```
 ## Running Locally
 ```bash
 pip install -r requirements.txt
